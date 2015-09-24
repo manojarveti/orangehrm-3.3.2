@@ -1,0 +1,72 @@
+09/11/15 09:31:27,135 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:31 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags [gmail]. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+09/11/15 09:31:45,779 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:31 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags []. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+09/11/15 09:32:10,180 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:32 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags []. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+09/11/15 09:36:58,445 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:36 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using smtp. Reason: Connection could not be established with host  tls://smtp.gmail.com [php_network_getaddresses: getaddrinfo failed: No such host is known.  #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:37:22,869 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:37 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@gmail.com using smtp. Reason: Connection could not be established with host  tls://smtp.gmail.com [php_network_getaddresses: getaddrinfo failed: No such host is known.  #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:38:59,757 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:38 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using smtp. Reason: Connection could not be established with host smtp.gmail.com [ #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:39:20,047 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:39 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@gmail.com using smtp. Reason: Connection could not be established with host smtp.gmail.com [ #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:39:43,981 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:39 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags [smtp.gmail.com]. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+

@@ -1,0 +1,158 @@
+[11-Sep-2015 09:16:56 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\plugins\orangehrmBeaconPlugin\lib\service\BeaconCommunicationsService.php on line 414
+[11-Sep-2015 09:16:56 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\autoload\sfCoreAutoload.class.php on line 96
+[11-Sep-2015 09:16:56 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php on line 3780
+[11-Sep-2015 09:30:23 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+09/11/15 09:31:27,135 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:31 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags [gmail]. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+09/11/15 09:31:45,779 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:31 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags []. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+09/11/15 09:32:10,180 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:32 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags []. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+[11-Sep-2015 09:34:42 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\vendor\swiftmailer\classes\Swift\Transport\StreamBuffer.php on line 233
+[11-Sep-2015 09:35:38 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\vendor\swiftmailer\classes\Swift\Transport\StreamBuffer.php on line 233
+09/11/15 09:36:58,445 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:36 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using smtp. Reason: Connection could not be established with host  tls://smtp.gmail.com [php_network_getaddresses: getaddrinfo failed: No such host is known.  #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:37:22,869 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:37 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@gmail.com using smtp. Reason: Connection could not be established with host  tls://smtp.gmail.com [php_network_getaddresses: getaddrinfo failed: No such host is known.  #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:38:59,757 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:38 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using smtp. Reason: Connection could not be established with host smtp.gmail.com [ #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:39:20,047 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:39 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@gmail.com using smtp. Reason: Connection could not be established with host smtp.gmail.com [ #0]
+
+========== Message Ends ==========
+
+
+09/11/15 09:39:43,981 [5812] INFO core.email - ========== Message Begins ==========
+
+Time : September 11, 2015, 9:39 am
+Message Type : Failure
+Message : Sending email failed to manoj.arveti@thattva.com using sendmail. Reason: Unsupported sendmail command flags [smtp.gmail.com]. Must be one of "-bs" or "-t" but can include additional flags.
+
+========== Message Ends ==========
+
+
+[14-Sep-2015 08:06:19 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/" (/).
+[14-Sep-2015 08:06:19 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 08:09:28 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/" (/).
+[14-Sep-2015 08:09:29 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 08:10:06 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/" (/).
+[14-Sep-2015 08:10:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\orangehrm-3.3.2\symfony\plugins\orangehrmOpenidAuthenticationPlugin\modules\openidauth\templates\_openIDSelect.php on line 60
+[14-Sep-2015 08:10:22 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/" (/).
+[14-Sep-2015 08:10:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\orangehrm-3.3.2\symfony\plugins\orangehrmOpenidAuthenticationPlugin\modules\openidauth\templates\_openIDSelect.php on line 60
+[14-Sep-2015 08:10:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\orangehrm-3.3.2\symfony\plugins\orangehrmOpenidAuthenticationPlugin\modules\openidauth\templates\_openIDSelect.php on line 60
+[14-Sep-2015 08:46:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\apps\orangehrm\modules\auth\templates\loginSuccess.php on line 141
+[14-Sep-2015 09:02:56 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/..symfony/web/themes/default/images/logo.png" (/).
+[14-Sep-2015 09:02:56 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 09:03:13 Europe/Berlin] Action "themes/default" does not exist.
+[14-Sep-2015 09:03:13 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 09:03:35 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/..web/themes/default/images/logo.png" (/).
+[14-Sep-2015 09:03:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 09:03:52 Europe/Berlin] Empty module and/or action after parsing the URL "/auth/..symfony/web/themes/default/images/logo.png" (/).
+[14-Sep-2015 09:03:52 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[14-Sep-2015 09:26:40 Europe/Berlin] Action "auth/dashboard" does not exist.
+[14-Sep-2015 09:26:41 Europe/Berlin] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\xampp\htdocs\orangehrm-3.3.2\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\exception\sfError404Exception.class.php(49): sfController->forward(' in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+09/14/15 09:33:51,677 [6888] WARN filter.ohrmAuthorizationFilter - User does not have access read access to attendance - viewMyAttendanceRecord
+09/14/15 09:34:38,408 [6888] WARN filter.ohrmAuthorizationFilter - User does not have access read access to pim - addEmployee
+[14-Sep-2015 13:53:12 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[14-Sep-2015 13:56:51 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[15-Sep-2015 08:22:43 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[15-Sep-2015 08:23:09 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[18-Sep-2015 12:56:52 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png" (/).
+[18-Sep-2015 13:38:35 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png" (/).
+[18-Sep-2015 13:38:39 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png" (/).
+[18-Sep-2015 13:41:42 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\plugins\orangehrmBeaconPlugin\lib\service\BeaconCommunicationsService.php on line 414
+[18-Sep-2015 13:41:42 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\orangehrm-3.3.2\symfony\lib\vendor\symfony\lib\autoload\sfCoreAutoload.class.php on line 96
